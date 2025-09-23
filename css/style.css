@@ -38,9 +38,12 @@ p {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     height: 100vh;
-    display: grid;
-    align-items: center;
 }
 .hero .container{
     color: var(--light);
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    grid-template-rows: repeat(2,auto);
 }
