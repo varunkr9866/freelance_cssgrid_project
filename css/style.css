@@ -52,3 +52,18 @@ p {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     column-gap: 3rem;
 }
+
+.service{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.service h2:after{
+    height: .5rem;
+    width: 7rem;
+    background-color: var(--primary);
+    content: '';
+    display: grid;
+    margin: 0 auto;
+    
+}
