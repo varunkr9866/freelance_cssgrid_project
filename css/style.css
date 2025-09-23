@@ -47,3 +47,8 @@ p {
     text-align: center;
     grid-template-rows: repeat(2,auto);
 }
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    column-gap: 3rem;
+}
